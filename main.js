@@ -72,6 +72,6 @@ if (SpeechRecognition) {
     info.textContent = ''; //
 
 } else {
-    console.log(""); // not
-    info.textContent = ""; //not
+    console.log("Your browser doesn't support voice speech"); // not
+    info.textContent = "Your browser doesn't support voice speech try google"; //not
 }
