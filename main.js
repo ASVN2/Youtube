@@ -69,9 +69,9 @@ if (SpeechRecognition) {
         // }, 500);
     }
 
-    info.textContent = 'not';
+    info.textContent = ''; //
 
 } else {
-    console.log("not");
+    console.log(""); // not
     info.textContent = ""; //not
 }
